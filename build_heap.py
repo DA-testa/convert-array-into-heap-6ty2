@@ -1,14 +1,26 @@
 # python3
 
 
-def build_heap(data):
+def build_heap(inf):
     swaps = []
+    size = len(inf)
+    for i in range(size//2,-1,-1)
+        SitaLieta(data, i, swaps)
+    return swaps
+
     # TODO: Creat heap and heap sort
     # try to achieve  O(n) and not O(n2)
 
-
     return swaps
 
+def SitaLita(data, i, swaps):
+        size = len(inf)
+        min_data = i
+        oneanother = 2 * i + 1
+        twoanother = 2 * i + 2
+        if oneanother < size and inf[oneanother] < inf[min_data]:
+            min_data = oneanother
+    
 
 def main():
     
